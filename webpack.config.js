@@ -4,8 +4,8 @@ const merge = require('webpack-merge');
 const NpmInstallPlugin = require('npm-install-webpack-plugin');
 const stylelint =   require('stylelint');
 
-
 const TARGET = process.env.npm_lifecycle_event;
+process.env.BABEL_ENV = TARGET;
 const PATHS = {
   app: path.join(__dirname, 'app'),
   build: path.join(__dirname, 'build')
