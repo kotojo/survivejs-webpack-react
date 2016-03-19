@@ -1,0 +1,33 @@
+{
+  "name": "kanbanish",
+  "version": "1.0.0",
+  "description": "A kanban like app using react and alt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server",
+    "lint": "eslint . --ext .js --ext .jsx"
+  },
+  "keywords": [
+    "react",
+    "alt",
+    "todo",
+    "webpack"
+  ],
+  "author": "Bruce Kellerman",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "eslint-loader": "^1.3.0",
+    "jscs": "^2.11.0",
+    "jscs-loader": "^0.2.0",
+    "npm-install-webpack-plugin": "^3.0.0",
+    "postcss-loader": "^0.8.2",
+    "style-loader": "^0.13.0",
+    "stylelint": "^5.0.1",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-merge": "^0.8.3"
+  }
+}
