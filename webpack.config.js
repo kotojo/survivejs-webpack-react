@@ -44,12 +44,7 @@ const common = {
       {
         // runs .js and .jsx files through babel
         test: /\.jsx?$/,
-        loader: 'babel',
-        query: {
-          cacheDirectory: true,
-          presets: ['react', 'es2015', 'survivejs-kanban']
-        },
-        // be explicit on where to parse
+        loaders: ['babel?cacheDirectory'],
         include: PATHS.app
       }
     ]
