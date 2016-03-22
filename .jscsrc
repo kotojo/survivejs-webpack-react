@@ -14,5 +14,6 @@
   "excludeFiles": [
     "dist/**",
     "node_modules/**"
-  ]
+  ],
+  "validateQuoteMarks": { "mark": "'", "escape": true, "ignoreJSX": true }
 }
