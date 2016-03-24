@@ -39,6 +39,7 @@
   },
   "dependencies": {
     "alt": "^0.18.3",
+    "alt-container": "^1.0.2",
     "alt-utils": "^1.0.0",
     "react": "^0.14.7",
     "react-dom": "^0.14.7"
