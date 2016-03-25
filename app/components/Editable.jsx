@@ -2,7 +2,9 @@ import React from 'react';
 
 export default class Editable extends React.Component {
   render() {
+    /* eslint-disable no-unused-vars */
     const {value, onEdit, onValueClick, editing, ...props} = this.props;
+    /* eslint-enable no-unused-vars */
 
     return (
       <div {...props}>
