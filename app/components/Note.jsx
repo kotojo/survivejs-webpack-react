@@ -41,6 +41,7 @@ export default class Note extends React.Component {
     );
   };
   edit = () => {
+    console.log("editing");
     this.setState({
       editing: true
     });
