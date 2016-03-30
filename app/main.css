@@ -1,5 +1,6 @@
 body {
   background: cornsilk;
+
   font-family: sans-serif;
 }
 
@@ -66,11 +67,6 @@ body {
   border: 0;
 }
 
-.add-note {
-  background-color: #fdfdfd;
-  border: 1px solid #ccc;
-}
-
 .notes {
   margin: 0.5em;
   padding-left: 0;
@@ -84,16 +80,16 @@ body {
   padding: 0.5em;
 
   background-color: #fdfdfd;
-  box-shadow: 0 0 0.3em 0.03em rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 0.3em .03em rgba(0,0,0,.3);
 }
 .note:hover {
-  box-shadow: 0 0 0.3em 0.03em rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 0.3em .03em rgba(0,0,0,.7);
 
-  transition: 0.6s;
+  transition: .6s;
 }
 
 .note .value {
-  /* force to use inline-block so that it gets minimum height*/
+  /* force to use inline-block so that it gets minimum height */
   display: inline-block;
 }
 
@@ -109,6 +105,6 @@ body {
 
   visibility: hidden;
 }
-.note:hover .delete-note {
+.note:hover .delete {
   visibility: visible;
 }
